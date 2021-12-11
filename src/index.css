@@ -132,123 +132,125 @@ a {
 
 /* -----------------Contact Form----------------- */
 .login-div {
-    max-width: 500px;
-    margin: auto;
-    /* height: 700px; */
-    padding: 60px 35px 35px 35px;
-    border-radius: 40px;
-    background: #ecf0f3;
-    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
+  max-width: 500px;
+  margin: auto;
+  /* height: 700px; */
+  padding: 60px 35px 35px 35px;
+  border-radius: 40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
 }
 .fields {
-    width: 100%;
-    padding: 55px 5px 5px 5px;
+  width: 100%;
+  padding: 55px 5px 5px 5px;
 }
 .fields input,
 textarea {
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 18px;
-    color: #555;
-    padding: 20px 10px 20px 5px;
-    width: calc(100% - 16px);
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding: 20px 10px 20px 5px;
+  width: calc(100% - 16px);
 }
 .fields div {
-    margin-bottom: 30px;
-    border-radius: 25px;
-    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
-    display: flex;
-    align-items: center;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+  display: flex;
+  align-items: center;
 }
 .fields svg {
-    height: 22px;
-    margin: 0 10px -3px 25px;
+  height: 22px;
+  margin: 0 10px -3px 25px;
 }
 .signin-button {
-    outline: none;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    height: 60px;
-    border-radius: 30px;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: "Lato", sans-serif;
-    color: #fff;
-    text-align: center;
-    background: #24cfaa;
-    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
-    transition: 0.5s;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  text-align: center;
+  background: #24cfaa;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  transition: 0.5s;
 }
 .signin-button:hover {
-    background: #2fdbb6;
+  background: #2fdbb6;
 }
 .signin-button:active {
-    background: #1da88a;
+  background: #1da88a;
 }
 .link {
   padding-top: 20px;
   text-align: center;
 }
 .link a {
-    text-decoration: none;
-    color: #aaa;
-    font-size: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
 }
 textarea {
-    resize: vertical;
-    padding-left: calc(16px + 5px + 10px + 25px);
+  resize: vertical;
+  padding-left: calc(16px + 5px + 10px + 25px);
 }
 .message {
-    position: relative;
+  position: relative;
 }
 .message svg {
-    position: absolute;
-    top: 20px;
-    left: 0px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
 }
-#contact{
-    margin-bottom: 100px;
+#contact {
+  margin-bottom: 100px;
 }
-#contact h2{
-    margin: 60px 0px;
+#contact h2 {
+  margin: 60px 0px;
 }
-.social-links{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
 }
-.social-links svg{
-    margin: 0px 10px;
+.social-links svg {
+  margin: 0px 10px;
 }
 /* --------------------------Projects------------------------ */
 :root {
   --level-one: translateZ(3rem);
   --level-two: translateZ(6rem);
   --level-three: translateZ(9rem);
-  
+
   --fw-normal: 400;
   --fw-bold: 700;
-  
+
   --clr: #b7c9e5;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
 }
 
 #projects .card {
   max-width: 600px;
-  margin:40px auto;
+  margin: 40px auto;
 }
-#projects{
+#projects {
   margin-bottom: 200px;
 }
 .card__content {
@@ -261,7 +263,7 @@ textarea {
 }
 
 .card:hover .card__content {
-  transform: rotateY(.5turn);
+  transform: rotateY(0.5turn);
 }
 /* make card front and back overlap each other */
 .card__front,
@@ -286,7 +288,7 @@ textarea {
 }
 
 .card__front::before {
-  content: '';
+  content: "";
   position: absolute;
   --spacer: 1em;
   top: var(--spacer);
@@ -304,7 +306,6 @@ textarea {
   text-transform: uppercase;
 }
 
-
 .card__body {
   transform: var(--level-two);
   font-weight: var(fw-normal);
@@ -312,21 +313,19 @@ textarea {
   line-height: 1.6;
 }
 
-
-
 .card__back {
   /* initially it is rotated opp so that when it comes in front the text is not inverted */
-  transform: rotateY(.5turn);
+  transform: rotateY(0.5turn);
   color: var(--clr);
   background: #333;
 }
-#projects .card a{
+#projects .card a {
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--clr);
 }
-#projects .card svg{
+#projects .card svg {
   margin-left: 5px;
 }
 
@@ -335,118 +334,183 @@ textarea {
 #past-work {
   margin-bottom: 190px;
 }
-#past-work .card{
-    margin:50px auto;
-    border-radius: 20px;
-    max-width: 500px;
-    border: 1px solid black;
+#past-work .card {
+  margin: 50px auto;
+  border-radius: 20px;
+  max-width: 500px;
+  border: 1px solid black;
 }
-#past-work .card img{
-    border-radius: 20px;
-    width: 100%;
-    height: 400px;
+#past-work .card img {
+  border-radius: 20px;
+  width: 100%;
+  height: 400px;
 }
 ul {
-    list-style-position: inside;
-    padding: 20px;
+  list-style-position: inside;
+  padding: 20px;
 }
-#past-work .card p{
-    color: #F9076D;
-    font-weight: 700;
-    text-align:center;
+#past-work .card p {
+  color: #f9076d;
+  font-weight: 700;
+  text-align: center;
 }
-#past-work .card h3{
-    font-weight: 900;
-    font-size: 25px;
-    text-align:center;
-    margin: 10px 0px;
+#past-work .card h3 {
+  font-weight: 900;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px 0px;
 }
-#past-work .card a{
-     border-bottom-left-radius: 20px;
-     border-bottom-right-radius: 20px;
-     display: block;
-     background-color: #F9076D;
-     color: white;
-     text-align: center;
-     padding: 10px;
- }
+#past-work .card a {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: block;
+  background-color: #f9076d;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
 
-
- /* -------------Media Queries-------------------- */
- @media screen and (max-width: 974px){
-   .Nav a{
-     font-size: 22px;
-   }
-   #about p {
+/* -------------Media Queries-------------------- */
+@media screen and (max-width: 974px) {
+  .Nav a {
     font-size: 22px;
   }
-  #about h1{
+  #about p {
+    font-size: 22px;
+  }
+  #about h1 {
     font-size: 50px;
   }
-  .heading{
+  .heading {
     font-size: 35px;
   }
-  .Nav{
+  .Nav {
     margin-bottom: 20px;
   }
- }
- @media screen and (max-width: 720px){
-   .Nav a{
-     font-size: 20px;
-     font-weight: 500;
-   }
-   #about p {
+}
+@media screen and (max-width: 720px) {
+  .Nav a {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  #about p {
     font-size: 17px;
   }
-  #about h1{
+  #about h1 {
     font-size: 45px;
   }
-  .about-image{
+  .about-image {
     margin-left: 0px;
     margin-right: 18px;
   }
-  .about-image img{
+  .about-image img {
     height: 140px;
   }
-  .container{
+  .container {
     width: 90%;
   }
-  .card__title{
+  .card__title {
     font-size: 2.6rem;
   }
-  .card__body{
+  .card__body {
     font-size: 1.3rem;
   }
- }
- @media screen and (max-width:550px) {
-   .Nav a{
-     margin: 0px 8px;
-   }
-   #past-work .card img {
-     height: 320px;
-   }
-   .card__body {
-    font-size: 1.1rem;
 }
- }
- @media screen and (max-width: 380px){
-.Nav a {
+@media screen and (max-width: 550px) {
+  .Nav a {
+    margin: 0px 8px;
+  }
+  #past-work .card img {
+    height: 320px;
+  }
+  .card__body {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .Nav a {
     margin: 0px 6px;
     font-size: 17px;
+  }
+  .card__title {
+    font-size: 2.2rem;
+  }
+  .card__body {
+    font-size: 0.95rem;
+  }
+  #about p {
+    line-height: 28px;
+  }
+  .about-image img {
+    height: 120px;
+  }
 }
-.card__title {
-  font-size: 2.2rem;
+
+/*--------------------------------- animations --------------------------------------*/
+
+@keyframes top-to-bottom {
+  from {
+    top: -400px;
+  }
+  to {
+    top: 0px;
+  }
 }
-.card__body {
-  font-size: 0.95rem;
+
+.about-image {
+  animation-name: top-to-bottom;
+  animation-duration: 2s;
 }
-#about p {
-  line-height: 28px;
+/* ----------Link Hover Effects------------- */
+.Nav a{
+  position: relative;
 }
-.about-image img {
-  height: 120px;
+.Nav a:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 0px;
+  height: 2.5px;
+  background: #007cfc;
+  transition: all 0.8s;
+  bottom: -5px;
 }
-.Nav{
-  /* width: 103vw; */
+.Nav a:hover:after {
+  width: 100%;
+  left: 0px;
 }
- }
+.highlight{
+  position: relative;
+}
+.highlight:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 0px;
+  height: 2.5px;
+  background: #11cc9e;
+  transition: all 0.8s;
+  bottom: -5px;
+}
+.highlight:hover:after {
+  width: 100%;
+  left: 0px;
+}
+#about p a {
+  transition: all 1s ;
+}
+#about p a:hover {
+  color: #800dec;
+}
+#projects .card a {
+  transition: all 1s;
+}
+#projects .card a:hover {
+  color: white;
+}
+.social-links a{
+  transition: all 1s;
+}
+.social-links a:hover{
+  color: black;
+}
