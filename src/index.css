@@ -403,6 +403,7 @@ ul {
   }
   .about-image{
     margin-left: 0px;
+    margin-right: 18px;
   }
   .about-image img{
     height: 140px;
@@ -444,5 +445,8 @@ ul {
 }
 .about-image img {
   height: 120px;
+}
+.Nav{
+  /* width: 103vw; */
 }
  }
