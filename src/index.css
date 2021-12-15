@@ -514,3 +514,17 @@ ul {
 .social-links a:hover{
   color: black;
 }
+/* -----------------------Progress Bar------------------------ */
+#progress-bar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 8px;
+  background: linear-gradient(to right,#ff5f6d,#ffc371);
+  z-index: 1000;
+  transition: width 0.2s ease-out;
+}
+.body{
+  overscroll-behavior-y: none;
+}
