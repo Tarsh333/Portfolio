@@ -17,7 +17,7 @@ const PastWork = () => {
                             Built a portfolio website for a client.</li><li>
                             Built a survey platform as Minimum viable product for fund raising for the company.</li>
                     </ul>
-                    <a href="" target='_blank'>Certificate <HiOutlineExternalLink/></a>
+                    <a href="https://drive.google.com/file/d/1Iw3LMciEORYIReMwna4myvUtTNeekY-C/view?usp=sharing" target='_blank'>Certificate <HiOutlineExternalLink/></a>
                 </div>
                 <div className='card'>
                     <img src={TEN}/>

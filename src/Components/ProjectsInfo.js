@@ -2,7 +2,7 @@ const projects=[
     {
         id:1,
         name:'Covid-Care',
-        link:': https://covid-care-iiitdmj.herokuapp.com/',
+        link:'https://covid-care-iiitdmj.herokuapp.com/',
         image:'../Covid-Care.PNG',
         desc:'It is an application to share covid related resources. It also has functionality to record and view vaccination records of an organization. Technologies used are PHP and MySQL',
         github:'https://github.com/Tarsh333/covid-care-final'

@@ -547,5 +547,5 @@ ul {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(105, 104, 104); 
+  background: #007CFC; 
 }
