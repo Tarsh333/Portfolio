@@ -9,6 +9,14 @@ const projects=[
     },
     {
         id:2,
+        name:'Algorithm Visualizer',
+        link:'https://algo-visualizer-tarsh.netlify.app/',
+        image:'../algo-visualizer.PNG',
+        desc:'It is a fully responsive application to help understand and visualize various sorting algorithms via animations.',
+        github:'https://github.com/Tarsh333/News-App'
+    },
+    {
+        id:3,
         name:'React E-commerce Website',
         link:'https://e-mobile-shop-react.netlify.app/',
         image:'../Ecommerce.PNG',
@@ -16,7 +24,7 @@ const projects=[
         github:'https://github.com/Tarsh333/React-E-commerce'
     },
     {
-        id:3,
+        id:4,
         name:'MERN News App',
         link:'https://news-app-tarsh.vercel.app/',
         image:'../News-App.PNG',
