@@ -1,6 +1,14 @@
 const projects=[
     {
-        id:1,
+    id: 1,
+    name: "Real-Time Multiplayer Othello",
+    link: "https://othello-frontend-99ko.vercel.app/",
+    github: "https://github.com/Tarsh333/othello-backend",
+    desc:
+      "Real-time multiplayer platform built using Go, Redis, and Server-Sent Events (SSE). Supports concurrent game sessions, matchmaking, and low-latency synchronization using goroutines and channels."
+  },
+    {
+        id:2,
         name:'Covid-Care',
         link:'https://covid-care-iiitdmj.herokuapp.com/',
         image:'../Covid-Care.PNG',
@@ -8,7 +16,7 @@ const projects=[
         github:'https://github.com/Tarsh333/covid-care-final'
     },
     {
-        id:2,
+        id:3,
         name:'Algorithm Visualizer',
         link:'https://algo-visualizer-tarsh.netlify.app/',
         image:'../algo-visualizer.PNG',
@@ -16,7 +24,7 @@ const projects=[
         github:'https://github.com/Tarsh333/News-App'
     },
     {
-        id:3,
+        id:4,
         name:'React E-commerce Website',
         link:'https://e-mobile-shop-react.netlify.app/',
         image:'../Ecommerce.PNG',
@@ -24,7 +32,7 @@ const projects=[
         github:'https://github.com/Tarsh333/React-E-commerce'
     },
     {
-        id:4,
+        id:5,
         name:'MERN News App',
         link:'https://news-app-tarsh.vercel.app/',
         image:'../News-App.PNG',
