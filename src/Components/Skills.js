@@ -1,8 +1,26 @@
 import React from 'react'
 import { TiTick } from 'react-icons/ti'
 import {GrTechnology} from 'react-icons/gr'
-const skillsArray = ["React.js", "HTML","CSS",  "NodeJS", "MongoDB","PHP", "SQL", "JavaScript", "C, C++", "Data Structures and Algorithms"]
-const Skills = () => {
+const skillsArray = [
+  "Go (Golang)",
+  "Java",
+  "Distributed Systems",
+  "Microservices",
+  "gRPC",
+  "Redis",
+  "Kubernetes",
+  "Docker",
+  "AWS S3",
+  "Google Cloud Platform",
+  "Cloudflare Workers",
+  "PostgreSQL",
+  "MongoDB",
+  "BigQuery",
+  "React.js",
+  "Node.js",
+  "CI/CD",
+  "Event Driven Architecture"
+];const Skills = () => {
     const handleClick=(e)=>{
         e.preventDefault()
         const target=e.target.getAttribute('href')

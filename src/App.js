@@ -6,6 +6,9 @@ import PastWork from './Components/PastWork'
 import ProgressBar from './Components/ProgressBar'
 import Projects from './Components/Projects'
 import Skills from './Components/Skills'
+import Achievements from "./Components/Achievements";
+
+
 
 const App = () => {
   return (
@@ -13,11 +16,12 @@ const App = () => {
       <ProgressBar/>
       <Nav/>
       <div className='container'>
-      <About/>
-      <Skills/>
-      <PastWork/>
-      <Projects/>
-      <Contact/>
+      <About />
+      <Skills />
+      <PastWork />
+      <Projects />
+      <Achievements />
+      <Contact />
       </div>
     </div>
   )
